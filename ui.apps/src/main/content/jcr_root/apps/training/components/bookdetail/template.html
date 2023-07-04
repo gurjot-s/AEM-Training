@@ -1,0 +1,6 @@
+Template Loaded
+<template data-sly-template.example="${@class,text}">
+  <span id="example-span" class="${class}">${text}</span>
+</template>
+
+<div data-sly-call="${example @ class='myClass', text='myText'}"></div>

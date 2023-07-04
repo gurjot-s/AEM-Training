@@ -1,0 +1,16 @@
+<sly data-sly-include="template.html"/>
+<div class="cmp-bookDetail" data-sly-use.book="com.training.core.models.BookDetail">
+    ${book.title}
+    current page >> ${currentPage.title}
+    <ul data-sly-list="${book.getListItems}">
+        <li>${item}</li>
+    </ul>
+    joining List Default by ,- ${book.getListItems}
+    joining List - ${book.getListItems @join='>>'}
+
+    <ul data-sly-list="${currentPage.listChildren}">
+        <li>${item.path}</li>
+    </ul>
+
+    <div data-sly-call="${example @ class='myClass', text='myText'}"></div>//not working
+</div>

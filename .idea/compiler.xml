@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="training.ui.config" />
+        <module name="training.ui.apps.structure" />
+        <module name="training.ui.tests" />
+        <module name="training.ui.apps" />
+        <module name="training.ui.content" />
+        <module name="training.it.tests" />
+        <module name="training.all" />
+        <module name="training.core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
