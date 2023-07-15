@@ -11,6 +11,6 @@
     <ul data-sly-list="${currentPage.listChildren}">
         <li>${item.path}</li>
     </ul>
-
-    <div data-sly-call="${example @ class='myClass', text='myText'}"></div>//not working
+<div data-sly-use.exmpl="template.html"> </div>
+    <div data-sly-call="${exmpl @ class='myClass', text='myText'}"></div>
 </div>
